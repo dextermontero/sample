@@ -4,7 +4,7 @@ import { getStatusBarHeight } from 'react-native-status-bar-height'
 export const styles = StyleSheet.create({
     bodyScreen: {
         flex: 1,
-        
+        backgroundColor: '#e0e0e0',
     },
     Header: {
         backgroundColor: '#16a085',
@@ -15,23 +15,34 @@ export const styles = StyleSheet.create({
         marginTop: 20,
         fontSize: 22,
         color: 'white',
+        textAlignVertical: 'center',
+        textAlign: 'center',
         fontFamily: 'sfHeavy',
     },
-    card: {
-        flex: 2,
-        flexDirection: 'row',
-        padding: 10,
-    },
     cardItem: {
-        flex: 1,
         fontSize: 17,
-        backgroundColor: '#ecf0f1',
+        backgroundColor: '#fff',
         width: '100%',
         marginBottom: 10,
         fontFamily: 'sfSemibold',
         textAlign: 'center',
         textAlignVertical: 'center',
+        justifyContent: 'center',
         borderRadius: 5,
         height: 100,
-    }
+    },
+    row: {
+        flex: 1,
+        justifyContent: "space-around"
+    },
+
+    aboutContainer: {
+        flex: 1,
+        padding: 10,
+    },
+    aboutContent: {
+        fontFamily: 'sfRegular',
+        fontSize: 18,
+
+    }, 
 });
