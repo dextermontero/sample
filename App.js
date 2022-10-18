@@ -1,11 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 
-// Pages Link
-import Home from './pages/home';
-
+// Import Routes Landingpage
+import Landingpage from './routes/index';
 
 export default function App() {
 
@@ -28,7 +25,7 @@ export default function App() {
     <AppLoading />
   }else{
     return (
-      <Home />
+      <Landingpage />
     );
   }
 }
