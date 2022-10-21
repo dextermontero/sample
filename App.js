@@ -2,7 +2,7 @@ import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 
 // Import Routes Landingpage
-import Landingpage from './routes/index';
+import Landingpage from './navigations/index';
 
 export default function App() {
 
