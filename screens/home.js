@@ -1,5 +1,5 @@
 /* import 'react-native-gesture-handler'; */
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import { View, Text, FlatList, Button, TouchableOpacity } from 'react-native';
 // Import Components
 import Card from '../components/card';
@@ -7,17 +7,16 @@ import Card from '../components/card';
 // Styles Link
 import { styles } from '../styles/style';
 
-
-
 export default function Home( { navigation }) {
+    
     const onPressAbout = () => {
         navigation.navigate('About');
     }
 
     const [ sampleApp, setApp ] = useState([
-        { title: 'Todo List', name: 'todoList', id: '1'},
-        { title: 'Number Counter', name: 'numberCounter', id: '2'},
-        { title: 'Basic Calculator', name: 'basicCalculator', id: '3'},
+        { title: 'Todo List', name: 'TodoList', id: '1'},
+        { title: 'Number Counter', name: 'NumberCounter', id: '2'},
+        { title: 'Basic Calculator', name: 'BasicCalculator', id: '3'},
     ])
 
     const pressHandler = (val) => {

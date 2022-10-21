@@ -2,7 +2,6 @@ import React from "react";
 import  { View, StyleSheet } from 'react-native';
 import { styles } from "../styles/style";
 
-
 export default function Card(props){
     return (
         <View style={style.cardBody}>
@@ -12,7 +11,6 @@ export default function Card(props){
         </View>
     );
 }
-
 
 const style = StyleSheet.create({
     cardBody: {
