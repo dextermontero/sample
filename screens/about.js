@@ -7,7 +7,7 @@ const AboutScreen = ({ navigation }) => {
             <Text>About Screen</Text>
             <Button title='Go to Login' onPress={() => navigation.navigate('Login')}/>
             <Text></Text>
-            <Button title="Back to Home Screen" onPress={() => navigation.goBack()} />
+            <Button title="Go Back" onPress={() => navigation.goBack()} />
         </View>
     );
 }

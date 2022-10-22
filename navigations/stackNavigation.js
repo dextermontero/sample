@@ -39,5 +39,28 @@ const LoginNavigation = () => {
     );
 }
 
+const TodoListStack = () => {
+    return (
+        <Stack.Navigator screenOptions={CustomizeHeader}>
+            <Stack.Screen name="Todo" component={TodoList} options={{ title: "Todo List" }}/>
+        </Stack.Navigator>
+    ); 
+}
 
-export { StackNavigation, AboutNavigation, LoginNavigation };
+const NumberCounterStack = () => {
+    return (
+        <Stack.Navigator screenOptions={CustomizeHeader}>
+            <Stack.Screen name="NumberCounter" component={NumberCounter} options={{ title: "Number Counter" }}/>
+        </Stack.Navigator>
+    ); 
+}
+
+const BasicCalculatorStack = () => {
+    return (
+        <Stack.Navigator screenOptions={CustomizeHeader}>
+            <Stack.Screen name="BasicCalculator" component={BasicCalculator} options={{ title: "Basic Calculator" }}/>
+        </Stack.Navigator>
+    ); 
+}
+
+export { StackNavigation, AboutNavigation, LoginNavigation, TodoListStack, NumberCounterStack, BasicCalculatorStack};

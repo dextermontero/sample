@@ -35,7 +35,70 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "space-around"
     },
+    todoInput: {
+        borderBottomColor: '#000',
+        borderBottomWidth: 2,
+        padding: 10,
+    },
+    addTodoBtn: {
+        marginVertical: 10,
+    },
 
+    todoItem: {
+        flex: 1,
+        flexDirection: 'row',
+    },
+    todoList: {
+        flex: 1,
+        width: '100%',
+        borderWidth: 1,
+        borderStyle: 'dashed',
+        borderColor: 'grey',
+        borderRadius: 6,
+        padding: 10,
+        marginVertical: 5,
+    },
+    delTodoBtn: {
+        flex: 1,
+        marginLeft: 10,
+        borderRadius: 6,
+        padding: 10,
+        marginVertical: 5,
+    },
+
+    Counter: {
+        flex: 1,
+        justifyContent: 'center',
+        alignContent: 'center',
+    },
+    NumberCounter: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    counterItem: {
+        fontFamily: 'sfBold',
+        fontSize: 80,
+    },
+    btnList: {
+        flexDirection: 'row',
+        marginVertical: 20,
+    },
+    counterIncrease: {
+        marginLeft: 15,
+        marginRight: 15,
+    },
+    counterLogs: {
+        borderWidth: 1,
+        borderColor: '#999',
+        textAlignVertical: 'top',
+        borderRadius: 8,
+        justifyContent: 'flex-start',
+        width: 350,
+        height: 250,
+        padding: 10,
+        color: "#333",
+    },
     aboutContainer: {
         flex: 1,
         padding: 10,
