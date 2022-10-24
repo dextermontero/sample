@@ -44,22 +44,29 @@ export const styles = StyleSheet.create({
         marginVertical: 10,
     },
 
-    todoItem: {
+    todoView: {
         flex: 1,
         flexDirection: 'row',
+        width: '100%',
     },
     todoList: {
         flex: 1,
-        width: '100%',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        marginVertical: 5,
+    },
+    todoName: {
         borderWidth: 1,
         borderStyle: 'dashed',
         borderColor: 'grey',
         borderRadius: 6,
         padding: 10,
-        marginVertical: 5,
+        fontFamily: 'sfBold',
+        width: '85%',
+        fontSize: 18,
+        textAlignVertical: 'center',
     },
-    delTodoBtn: {
-        flex: 1,
+    todoDeleteBtn: {
         marginLeft: 10,
         borderRadius: 6,
         padding: 10,
