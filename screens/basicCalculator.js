@@ -9,7 +9,7 @@ export default function BasicCalculator({ navigation }) {
     return(
         <View style={styles.aboutContainer}>
             <Text style={styles.aboutContent}>Basic Calculator Here</Text>
-
+            <Text></Text>
             <Button title='go back' onPress={() => navigation.goBack()}/>
         </View>
     );
