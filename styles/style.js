@@ -72,7 +72,6 @@ export const styles = StyleSheet.create({
         padding: 10,
         marginVertical: 5,
     },
-
     Counter: {
         flex: 1,
         justifyContent: 'center',

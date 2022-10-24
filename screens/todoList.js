@@ -35,7 +35,6 @@ export default function TodoList({ navigation }) {
             });
             Keyboard.dismiss();
         }
-
     }
 
     return(
